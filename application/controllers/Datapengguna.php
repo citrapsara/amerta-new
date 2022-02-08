@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class DataPengguna extends CI_Controller {
+class Datapengguna extends CI_Controller {
 
 	public function index()
 	{
