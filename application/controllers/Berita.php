@@ -118,6 +118,7 @@ class Berita extends CI_Controller {
 					$tgl_kegiatan 	 = htmlentities(strip_tags($this->input->post('tgl_kegiatan')));
 					$poin_kegiatan 	 = htmlentities(strip_tags($this->input->post('poin_kegiatan')));
 					$peserta 	 = htmlentities(strip_tags($this->input->post('peserta')));
+					$judul_berita 	 = htmlentities(strip_tags($this->input->post('judul_berita')));
 
 					$simpan = '';
 
@@ -253,6 +254,7 @@ class Berita extends CI_Controller {
 							'tgl_kegiatan'  		=> $tgl_kegiatan,
 							'poin_kegiatan'   		=> $poin_kegiatan,
 							'peserta'				=> $peserta,
+							'judul_berita'			=> $judul_berita,
 							'status'				=> 'menunggu',
 							'tgl_berita'   			=> $tgl,
 							'divisi'				=> $user_divisi
@@ -295,6 +297,7 @@ class Berita extends CI_Controller {
 					$tgl_kegiatan 	 = htmlentities(strip_tags($this->input->post('tgl_kegiatan')));
 					$poin_kegiatan 	 = htmlentities(strip_tags($this->input->post('poin_kegiatan')));
 					$peserta 	 = htmlentities(strip_tags($this->input->post('peserta')));
+					$judul_berita 	 = htmlentities(strip_tags($this->input->post('judul_berita')));
 
 					$cek_file = $this->db->get_where('tbl_berita',"id_berita='$id'");
 
@@ -537,6 +540,7 @@ class Berita extends CI_Controller {
 							'tgl_kegiatan'  		=> $tgl_kegiatan,
 							'poin_kegiatan'   		=> $poin_kegiatan,
 							'peserta'				=> $peserta,
+							'judul_berita'			=> $judul_berita,
 							'status'				=> $cek_file->row()->status,
 							'tgl_berita'   			=> $tgl,
 							'divisi'				=> $user_divisi
