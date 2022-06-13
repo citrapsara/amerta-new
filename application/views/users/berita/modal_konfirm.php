@@ -62,7 +62,7 @@ $link3  = strtolower($this->uri->segment(3));
 					<div class="modal-body">
 						<input type="hidden" name="id_berita" id="id_berita" value="">
 						<input type="hidden" name="pelaksana" id="pelaksana" value="">
-						
+
 							<div class="pesan_ajax"></div>
 							<div class="form-group" id="f_ajax1">
 								<label class="col-lg-4">Catatan</label>
