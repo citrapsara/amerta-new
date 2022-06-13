@@ -56,7 +56,12 @@
                       <td><?php echo $query->tgl_kegiatan; ?></td>
                     </tr>
                     <tr>
-                      <th valign="top">Poin Kegiatan</th>
+                      <th valign="top">Judul Berita</th>
+                      <th valign="top">:</th>
+                      <td><?php echo $query->judul_berita; ?></td>
+                    </tr>
+                    <tr>
+                      <th valign="top">Narasi Berita</th>
                       <th valign="top">:</th>
                       <td><?php echo $query->poin_kegiatan; ?></td>
                     </tr>
