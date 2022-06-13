@@ -72,10 +72,6 @@
                     
                     <h4>Unggah Dokumen Pendukung</h4>
                     <div class="alert alert-success">
-                      <strong><i>Catatan :</i></strong> Wajib mengunggah minimal 2 foto kegiatan dan maksimal 6 foto kegiatan.
-                    </div>
-                    <br>
-                    <div class="alert alert-success">
                       <strong><i>Catatan :</i></strong> Dokumen pendukung digunakan untuk penambahan informasi saat proses verifikasi oleh tim Humas. Dokumen pendukung dapat berupa sambutan, notula, undangan/nota dinas, paparan dan dokumen lain yang bisa menjadi bahan berita. Jika terdapat lebih dari 1 file, seluruh file mohon di-zip terlebih dahulu.
                     </div>
                     <br>
@@ -110,6 +106,10 @@
                   <hr>
 
                   <h4>Unggah Dokumentasi</h4>
+                  <div class="alert alert-success">
+                    <strong><i>Catatan :</i></strong> Wajib mengunggah minimal 2 foto kegiatan dan maksimal 6 foto kegiatan.
+                  </div>
+                  <br>
                   <div class="form-group">
                     <label class="col-lg-12">Foto 1<b id='wajib_isi'>*</b></label>
                     <div class="col-lg-12">
